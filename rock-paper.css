@@ -14,29 +14,38 @@
     }
     .rockbutton {
       height: 340px;
-   
-     
-    }
-    .paperbutton{
-       height: 340px;
-    
-     
-    }
-    .scissorbutton {
-        height: 340px;
-      
-     
-    }
-    .movebutton{
-      background-color: transparent;
+       background-color: transparent;
       border: none;
       width: 120px;
       
       height: 120px;
       border-radius: 60px;
-      margin-right: 60px;
-      cursor: pointer;
-       margin-left: 80px;
+     
+    }
+    .paperbutton{
+       height: 340px;
+        background-color: transparent;
+      border: none;
+      width: 120px;
+      
+      height: 120px;
+      border-radius: 60px;
+     
+    }
+    .scissorbutton {
+        height: 340px;
+          background-color: transparent;
+      border: none;
+      width: 120px;
+      
+      height: 120px;
+      border-radius: 60px;
+      
+      
+     
+    }
+    .movebutton{
+  
       
     }
     .result{
