@@ -50,10 +50,14 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 
               updatescore();
               document.querySelector('.jsresult').innerHTML = result;
-              document.querySelector('.jsmove').innerHTML = `  You 
+              /* document.querySelector('.jsmove').innerHTML = `  You 
       <img src="${playerMove}.png" class="movebutton">
       <img src="${computerMove}.png" class="movebutton">
-      Computer`;
+      Computer`; */
+             document.querySelector('.jsmove').innerHTML = `You 
+  <img src="${playerMove}.png" class="result-move">
+  <img src="${computerMove}.png" class="result-move">
+  Computer`;
 
         alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
  wins: ${score.wins}, losses: ${score.losses}, ties:${score.ties}`);          
